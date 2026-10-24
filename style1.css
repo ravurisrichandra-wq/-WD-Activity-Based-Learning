@@ -1,0 +1,161 @@
+
+/* General Style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f2;
+    color: #333333;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 3px solid #f07832;
+}
+
+.navbar h2 {
+    color: #d95716;
+    margin: 10px;
+}
+
+/* Horizontal Navigation Boxes */
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.links a {
+    background-color: #fff1e6;
+    color: #c84e0b;
+    text-decoration: none;
+    padding: 10px 12px;
+    border: 1px solid #f07832;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.links a:hover {
+    background-color: #e96924;
+    color: white;
+}
+
+/* Home Banner */
+.banner {
+    background-color: #e96924;
+    background-image: linear-gradient(120deg, #c84e0b, #ff9b54);
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.banner h1 {
+    font-size: 38px;
+}
+
+.banner p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: white;
+    color: #c84e0b;
+    text-decoration: none;
+    padding: 12px 22px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #ffe0c7;
+}
+
+/* Main Containers */
+.container {
+    background-color: white;
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #ead7c8;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.container h2 {
+    color: #c84e0b;
+    margin-bottom: 22px;
+}
+
+.container p {
+    line-height: 1.7;
+}
+
+/* Cards Layout */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+/* Individual Cards */
+.card {
+    background-color: #fff5ed;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #ffd0b0;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #f1dfd3;
+    box-sizing: border-box;
+}
+
+.card h3 {
+    color: #df641d;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+/* Admission Container */
+.admission {
+    background-color: #ffeadb;
+}
+
+.admission .button {
+    background-color: #e96924;
+    color: white;
+}
+
+/* Contact Container */
+.contact {
+    background-color: #fff0e5;
+}
+
+/* Footer */
+.footer {
+    background-color: #a83f0c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer h3 {
+    color: #ffe1ca;
+}
+
+.footer p {
+    font-size: 14px;
+    line-height: 1.7;
+}
