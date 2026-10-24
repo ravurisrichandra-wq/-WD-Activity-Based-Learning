@@ -1,0 +1,195 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fa;
+    color: #243247;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #142b4a;
+    color: white;
+    padding: 18px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    color: #ffd166;
+    margin: 0;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Welcome Banner */
+.banner {
+    background-color: #203f65;
+    color: white;
+    padding: 65px 20px;
+    text-align: center;
+}
+
+.banner h1 {
+    color: #ffd166;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: #ffd166;
+    color: #142b4a;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #f2b93b;
+}
+
+/* Search Section */
+.search-box {
+    background-color: white;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #dce2eb;
+}
+
+.search-box h2 {
+    color: #142b4a;
+}
+
+.search-box form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+
+.search-box label {
+    font-weight: bold;
+}
+
+.search-box select {
+    padding: 11px;
+    border: 1px solid #cbd4df;
+    border-radius: 5px;
+    background-color: #f8faff;
+}
+
+.search-box button {
+    background-color: #142b4a;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Property Listings */
+.properties {
+    padding: 25px;
+}
+
+.properties h2,
+.comparison h2,
+.contact h2 {
+    color: #142b4a;
+}
+
+.property-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+/* Property Cards */
+.property-card {
+    background-color: white;
+    width: 260px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #d8dfeb;
+}
+
+.property-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.property-card h3 {
+    color: #142b4a;
+}
+
+.property-card .price {
+    color: #c18a00;
+}
+
+.description {
+    color: #637083;
+    line-height: 1.5;
+}
+
+.property-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Comparison Table */
+.comparison {
+    background-color: white;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 12px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #142b4a;
+    color: #ffd166;
+}
+
+th, td {
+    padding: 14px;
+    border: 1px solid #dce2eb;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f6fa;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #e4eaf3;
+    padding: 30px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.contact p {
+    line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+    background-color: #142b4a;
+    color: white;
+    padding: 18px;
+    text-align: center;
+}
