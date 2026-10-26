@@ -15,8 +15,9 @@ Projects:
    College Information and Admissions Website 
  -------------------
    Student Academic Dashboard 
-   ------------------
-    Real Estate Property Listing Website 
+---------------------
+   Real Estate Property Listing Website 
+  -----------------------
     
      
     
